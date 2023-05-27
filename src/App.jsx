@@ -1,5 +1,4 @@
 import './App.css';
-import imgcalculadora from "./assets/calculadora.PNG"
 import { RiCalculatorFill } from 'react-icons/ri'
 
 function App() {
