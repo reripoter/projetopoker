@@ -6,6 +6,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import AddSecao from './AddSecao.jsx'
 import VerSecoes from './Versecoes.jsx'
 import VerEmGraficos from './VerEmGraficos.jsx'
+import SimularSecao from './SimularSecao.jsx'
+import CalcTexas from './CalcTexas.jsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -16,6 +18,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Route path='/add-secao' element={<AddSecao />}></Route>
       <Route path='/ver-secoes' element={<VerSecoes />}></Route>
       <Route path='/ver-em-graficos' element={<VerEmGraficos />}></Route>
+      <Route path='/simularsecao' element={SimularSecao}></Route>
+      <Route path='/calc-texas' element={CalcTexas}></Route>
     </Routes>
    </BrowserRouter>
     

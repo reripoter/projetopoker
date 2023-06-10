@@ -12,13 +12,15 @@ function App() {
         </button>
         <button className="button">
           <a href='ver-secoes'>Ver Seções</a>
-          </button>
+        </button>
         <button className="button">
           <a href='ver-em-graficos'>Ver em Gráficos</a>
-          </button>
-        <button className="button">Simular Seção</button>
+        </button>
+        <button className="button">
+          <a href='simularsecao'>Simular Seção</a>
+        </button>
         <button className="button ">
-          Calculadora Texas <RiCalculatorFill />
+          <a href='calc-texas'>Calculadora Texas <RiCalculatorFill /></a>
         </button>
         <button className="button">Calculadora Omaha 4</button>
         <button className="button">Calculadora Omaha 5</button>
